@@ -1,0 +1,11 @@
+body {
+    font-size: 14px;
+    color: navy;
+}
+p{
+  color : red;
+  font-size: 3em;
+  font-family: arial;
+  font-weight:1000;
+  text-decoration: overline;
+}

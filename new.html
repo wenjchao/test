@@ -1,0 +1,104 @@
+<!DOCTYPE HTML>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <title>My First Web Page</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="new.js"></script>
+  </head>
+  <body>
+    <!-- Tab links -->
+    <div class="tab">
+      <button class="tablinks" onclick="openCity(event, 'London')">London</button>
+      <button class="tablinks" onclick="openCity(event, 'Paris')">Paris</button>
+      <button class="tablinks" onclick="openCity(event, 'Tokyo')">Tokyo</button>
+    </div>
+
+    <!-- Tab content -->
+    <div id="London" class="tabcontent">
+      <h3>London</h3>
+      <p>London is the capital city of England.</p>
+    </div>
+
+    <div id="Paris" class="tabcontent">
+      <h3>Paris</h3>
+      <p>Paris is the capital of France.</p>
+    </div>
+
+    <div id="Tokyo" class="tabcontent">
+      <h3>Tokyo</h3>
+      <p>Tokyo is the capital of Japan.</p>
+    </div>
+    <h1>An example heading</h1>
+    <h3 style="text-align: right;">Check this out!</h3>
+    Check
+    <hr />
+    this <hr width="50%">out!<br />
+    <table cellpadding="20">
+      <caption>HTML Tutorial</caption>
+      <thead>
+        <tr>
+          <td>Logo</td>
+          <td>Header</td>
+          <td>Icons</td>
+        </tr>
+      </thead>
+      <tfoot>
+        <tr>
+          <td colspan="2">Footer</td>
+          <td>Contact</td>
+        </tr>
+      </tfoot>
+      <tbody>
+        <tr>
+          <td colspan="2">Title</td>
+          <td rowspan="2">Sidebar</td>
+        </tr>
+        <tr>
+          <td colspan="2">
+            Content <br />
+            comes <br />
+            here
+          </td>
+        </tr>
+      </tbody>
+    </table>
+    <form action="/send.php" method="post">
+      Name: <input name="name" type="text" /> <br />
+      <textarea cols="20" name="comments" rows="5">Message</textarea><br />
+      Gender: <input checked="checked" name="gender" type="radio" value="male" /> Male
+              <input name="gender" type="radio" value="mal" /> Mal
+              <input checked="checked" name="gende" type="radio" value="female" />Female <br />
+      <input type="submit" value="Send" />
+    </form>
+    <a href="mailto:b06401015@ntu.edu.tw" style="border:10px dotted rgb(155, 155, 205);">E-mail wenj</a>
+    <a href="https://google.com/" target="_blank" style="border:10px solid rgb(155, 155, 205);"><br />here's the link</a>
+    <a title="hello" href="https://google.com/" target="_self" rel="external">
+      <img src="螢幕擷取畫面 (9).png" width="600" height="400" alt="cat" />
+    </a>
+    <!--This is a comment!-->
+    <ul type="square">
+      <li data-pos="1">HTML</li>
+      <li data-pos="2">CSS</li>
+      <li data-pos="3">JavaScript</li>
+    </ul>
+    <p style="font-size: 1.2em; text-align: center;">
+      The text is <span style="text-decoration: underline;">bigger</span> in this paragraph.
+    </p>
+    <p style="text-align: left;">Check</p>
+    <p style="text-align: center;">this</p>
+    <p style="text-align: right;">out!</p>
+    <table>
+      <tbody>
+        <tr>
+          <td>1</td>
+          <td>2</td>
+        </tr>
+        <tr>
+          <td>3</td>
+          <td>4</td>
+        </tr>
+      </tbody>
+    </table>
+  </body>
+</html>
